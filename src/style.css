@@ -1,0 +1,10 @@
+#glavni{
+    display:flex;
+    flex-direction: row;
+}
+ol{
+    text-align: left;
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
