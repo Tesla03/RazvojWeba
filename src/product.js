@@ -5,9 +5,4 @@ export class Product{
         this.quantity = quantity;
         this.price = price;
     }
-
-    getProduct(id)
-    {
-        
-    }
 }

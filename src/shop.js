@@ -5,4 +5,12 @@ export class Shop{
         this.name = name;
         this.arrayProducts = [];
     } 
+
+    importProduct(product){
+        this.arrayProducts.push(product);
+    }
+
+    getAllProducts(){
+        return this.arrayProducts;
+    }
 }

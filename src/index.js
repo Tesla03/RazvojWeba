@@ -1,47 +1,34 @@
-import { product } from "./product"
-import { from, fromEvent, Observable } from "rxjs"
-import { debounceTime, map, switchMap } from "rxjs/operators"
+import { Product } from "./product"
+import { Shop } from "./shop"
 
-const listProduct = document.getElementById("listaProizvoda");
-const shopsProducts = document.getElementById("proizvodiUProdavnici");
-let elem = null;
+const shop1 = new Shop("Tempo");
+const shop2 = new Shop("Maxi");
+const shop3 = new Shop("Idea");
 
-function getProducts(name){
-    return from(
-        fetch(`http://localhost:3000/products?name=${name}`)
-        .then(res => res.json())
-    );
+shop1.importProduct(new Product("Kecap", 25, 50));
+shop1.importProduct(new Product("Majonez", 30, 120));
+shop1.importProduct(new Product("Pavlaka", 5, 90));
+shop1.importProduct(new Product("Mleko", 15, 55));
+shop1.importProduct(new Product("Sir", 3, 400));
+shop1.importProduct(new Product("Makarone", 10, 85));
+shop1.importProduct(new Product("Krompir", 23, 100));
+shop1.importProduct(new Product("Krastavac", 51, 50));
+shop1.importProduct(new Product("Pirinac", 4, 150));
+shop1.importProduct(new Product("Nektar", 12, 115));
+shop1.importProduct(new Product("Sladoled", 27, 150));
+shop1.importProduct(new Product("Vino", 2, 450));
+
+
+function randomNumber(){
+    return parseInt(Math.random() * 12);
 }
 
-function fillList(array,list){
-    list.innerHTML = "";
-    array.forEach(el => {
-        elem = document.createElement("li");
-        elem.innerHTML=el.name + " " + el.price + " " + el.shopId;
-        list.appendChild(elem);
+function updateQuantity(array,num){
+    array.forEach(el=>{
+        el.quantity+=num;
     })
-}
-const input = document.getElementById("Proizvodi");
-
-fromEvent(input, "input").pipe(
-    debounceTime(500),
-    map(ev => ev.target.value),
-    switchMap(id => getProducts(id))
-).subscribe(res => fillList(res,listProduct));
-
-function getShopProducts(id){
-    return from(
-        fetch(`http://localhost:3000/shops/${id}/products`)
-        .then(res => res.json())
-    );
+    return array;
 }
 
-const inputa = document.getElementById("Prodavnica");
-
-fromEvent(inputa, "input").pipe(
-    debounceTime(500),
-    map(ev => ev.target.value),
-    switchMap(name => getShopProducts(name))
-).subscribe(res => fillList(res,shopsProducts));
-
+console.log(updateQuantity(shop1.arrayProducts,-1));
 
