@@ -6,19 +6,40 @@
   <body>
     <div id="glavni">
       <div id="proizvodi">
-        <input type="text" id="Proizvodi" onfocus="this.value=''" name="Proizvodi" value="Uneti zeljeni proizvod">
-        <table id="tabelaProizvod">
-        </table>
+        <label>Proizvod u prodavnicama</label>
+        <input type="text" id="Proizvodi" onfocus="this.value=''" name="Proizvodi" value="Uneti zeljeni proizvod"/>
+        <input type="checkbox" id="chb" name="drugaLista" />List 2
+        <table id="tabelaProizvod"></table>
+        <div id="budzet">
+          <label>Vas budzet:</label>
+          <input type="number" id="budzetInput" step="100" Value="0" name="budzetInput"/>
+        </div>
       </div>
       <div id="prodavnica">
-        <input type="text" id="Prodavnica" onfocus="this.value=''" name="Prodavnica" value="Uneti prodavnicu">
-        <table id="tabelaProd">
-        </table>
+        <label>Proizvodi u prodavnici</label>
+        <input type="text" id="Prodavnica" onfocus="this.value=''" name="Prodavnica" value="Uneti prodavnicu"/>
+        <table id="tabelaProd"></table>
       </div>
-      <div>
-        <ol id="listaZaKupovinu">
-        </ol>
+      <div id="lista">
+        <label>Lista za kupovinu:</label>
+        <ol id="listaZaKupovinu"></ol>
+        <div id="racun">
+          <label>Racun: </label>
+          <input type="text" id="trenutniRacun" name="racun" value=0 />
+        </div>
       </div>
+      <div id="lista2">
+        <label>Lista za kupovinu 2:</label>
+        <ol id="listaZaKupovinu2"></ol>
+        <div id="racun2">
+          <label>Racun: </label>
+          <input type="text" id="trenutniRacun2" name="racun" value=0 />
+        </div> 
+      </div>
+    </div>
+    <div id="divZaAkcije">
+      <label id="naAkciji">Proizvodi na akciji:</label>
+      <ol id="akcije"></ol>
     </div>
     <script src="bundle.js"></script>
   </body>

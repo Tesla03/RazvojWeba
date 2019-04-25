@@ -1,60 +1,452 @@
 {
     "products" : [
         {
+            "id":"0",
+            "name":"Majonez",
+            "price":100,
+            "quantity":12,
+            "shopId":"Maxi",
+            "naAkciji": "Ne"
+        },
+        {
             "id":"1",
             "name":"Majonez",
-            "price":"100",
-            "quantity":"1",
-            "shopId":"Maxi"
+            "price":115,
+            "quantity":15,
+            "shopId":"Idea",
+            "naAkciji": "Da"
         },
         {
             "id":"2",
             "name":"Majonez",
-            "price":"115",
-            "quantity":"1",
-            "shopId":"Idea"
+            "price":105,
+            "quantity":11,
+            "shopId":"Roda",
+            "naAkciji": "Ne"
         },
         {
             "id":"3",
             "name":"Majonez",
-            "price":"105",
-            "quantity":"1",
-            "shopId":"Roda"
+            "price":130,
+            "quantity":18,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
         },
         {
             "id":"4",
-            "name":"Majonez",
-            "price":"130",
-            "quantity":"1",
-            "shopId":"Tempo"
+            "name":"Kecap",
+            "price":50,
+            "quantity":7,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
         },
         {
             "id":"5",
             "name":"Kecap",
-            "price":"50",
-            "quantity":"1",
-            "shopId":"Maxi"
+            "price":65,
+            "quantity":15,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
         },
         {
             "id":"6",
             "name":"Kecap",
-            "price":"65",
-            "quantity":"1",
-            "shopId":"Idea"
+            "price":58,
+            "quantity":19,
+            "shopId":"Roda",
+            "naAkciji": "Da"
         },
         {
             "id":"7",
             "name":"Kecap",
-            "price":"58",
-            "quantity":"1",
-            "shopId":"Maxi"
+            "price":45,
+            "quantity":22,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
         },
         {
             "id":"8",
-            "name":"Kecap",
-            "price":"45",
-            "quantity":"1",
-            "shopId":"Maxi"
+            "name":"Smoki",
+            "price":40,
+            "quantity":18,
+            "shopId":"Maxi",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"9",
+            "name":"Smoki",
+            "price":35,
+            "quantity":30,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"10",
+            "name":"Smoki",
+            "price":28,
+            "quantity":51,
+            "shopId":"Roda",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"11",
+            "name":"Smoki",
+            "price":36,
+            "quantity":28,
+            "shopId":"Tempo",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"12",
+            "name":"Tunjevina",
+            "price":150,
+            "quantity":30,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"13",
+            "name":"Tunjevina",
+            "price":182,
+            "quantity":12,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"14",
+            "name":"Tunjevina",
+            "price":176,
+            "quantity":18,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"15",
+            "name":"Tunjevina",
+            "price":162,
+            "quantity":28,
+            "shopId":"Roda",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"16",
+            "name":"Sir",
+            "price":605,
+            "quantity":5,
+            "shopId":"Tempo",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"17",
+            "name":"Sir",
+            "price":651,
+            "quantity":7,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"18",
+            "name":"Sir",
+            "price":582,
+            "quantity":3,
+            "shopId":"Idea",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"19",
+            "name":"Sir",
+            "price":726,
+            "quantity":8,
+            "shopId":"Roda",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"20",
+            "name":"Mleko",
+            "price":68,
+            "quantity":10,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"21",
+            "name":"Mleko",
+            "price":65,
+            "quantity":15,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"22",
+            "name":"Mleko",
+            "price":80,
+            "quantity":12,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"23",
+            "name":"Mleko",
+            "price":72,
+            "quantity":18,
+            "shopId":"Roda",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"24",
+            "name":"Pecenica",
+            "price":686,
+            "quantity":4,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"25",
+            "name":"Pecenica",
+            "price":612,
+            "quantity":3,
+            "shopId":"Maxi",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"26",
+            "name":"Pecenica",
+            "price":752,
+            "quantity":7,
+            "shopId":"Idea",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"27",
+            "name":"Pecenica",
+            "price":718,
+            "quantity":2,
+            "shopId":"Roda",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"28",
+            "name":"Zelena Salata",
+            "price":29,
+            "quantity":21,
+            "shopId":"Tempo",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"29",
+            "name":"Zelena Salata",
+            "price":25,
+            "quantity":17,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"30",
+            "name":"Zelena Salata",
+            "price":36,
+            "quantity":15,
+            "shopId":"Idea",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"31",
+            "name":"Zelena Salata",
+            "price":24,
+            "quantity":18,
+            "shopId":"Roda",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"32",
+            "name":"Krompir",
+            "price":120,
+            "quantity":8,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"33",
+            "name":"Krompir",
+            "price":126,
+            "quantity":15,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"34",
+            "name":"Krompir",
+            "price":117,
+            "quantity":13,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"35",
+            "name":"Krompir",
+            "price":112,
+            "quantity":11,
+            "shopId":"Roda",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"36",
+            "name":"Mleko za telo",
+            "price":550,
+            "quantity":3,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"37",
+            "name":"Mleko za telo",
+            "price":520,
+            "quantity":6,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"38",
+            "name":"Mleko za telo",
+            "price":580,
+            "quantity":8,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"39",
+            "name":"Mleko za telo",
+            "price":490,
+            "quantity":2,
+            "shopId":"Roda",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"40",
+            "name":"Hleb",
+            "price":45,
+            "quantity":60,
+            "shopId":"Tempo",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"41",
+            "name":"Hleb",
+            "price":50,
+            "quantity":80,
+            "shopId":"Maxi",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"42",
+            "name":"Hleb",
+            "price":47,
+            "quantity":43,
+            "shopId":"Idea",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"43",
+            "name":"Hleb",
+            "price":58,
+            "quantity":61,
+            "shopId":"Roda",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"44",
+            "name":"Jaja",
+            "price":8,
+            "quantity":275,
+            "shopId":"Tempo",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"45",
+            "name":"Jaja",
+            "price":11,
+            "quantity":216,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"46",
+            "name":"Jaja",
+            "price":10,
+            "quantity":278,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"47",
+            "name":"Jaja",
+            "price":9,
+            "quantity":166,
+            "shopId":"Roda",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"48",
+            "name":"Riba",
+            "price":370,
+            "quantity":7,
+            "shopId":"Tempo",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"49",
+            "name":"Riba",
+            "price":355,
+            "quantity":8,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"50",
+            "name":"Riba",
+            "price":417,
+            "quantity":3,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"51",
+            "name":"Riba",
+            "price":409,
+            "quantity":12,
+            "shopId":"Roda",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"52",
+            "name":"Pomorandze",
+            "price":120,
+            "quantity":41,
+            "shopId":"Tempo",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"53",
+            "name":"Pomorandze",
+            "price":110,
+            "quantity":72,
+            "shopId":"Maxi",
+            "naAkciji": "Da"
+        },
+        {
+            "id":"54",
+            "name":"Pomorandze",
+            "price":135,
+            "quantity":42,
+            "shopId":"Idea",
+            "naAkciji": "Ne"
+        },
+        {
+            "id":"55",
+            "name":"Pomorandze",
+            "price":140,
+            "quantity":36,
+            "shopId":"Roda",
+            "naAkciji": "Da"
         }
     ],
 

@@ -1,20 +1,84 @@
-#glavni{
-    display:flex;
-    flex-direction: row;
-}
 ol{
     text-align: left;
     padding:0;
     margin:0;
     list-style-type: none;
 }
+
 body{
+    padding:0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border:solid black 1px;
+}
+
+td{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+th{
+    background-color: teal;
+}
+
+input{
+    background-color: transparent;
+}
+
+label{
+    font-weight: bold;
+}
+
+#chb{
+    width: 15%;
+}
+
+#glavni{
+    display:flex;
+    flex-direction: row;
     margin-left:25%;
     margin-right:25%;
 }
+
 #prodavnica{
-    margin-left:10%;
+    margin-left:5px;
 }
-th{
-    text-align: left;
+
+#budzet{
+    margin-top:15%;
+    display:flex;
+    flex-direction: column;
+}
+
+#budzetInput{
+    margin-bottom: 5%;
+    max-width: 25%;
+    text-align: center;
+}
+
+#lista,#lista2{
+    display:flex;
+    flex-direction: column;
+    margin-left:5px;
+}
+
+
+#racun, #racun2{
+    display:flex;
+    flex-direction: row;
+}
+
+#trenutniRacun,#trenutniRacun2{
+    max-width: 50%;
+}
+
+#divZaAkcije{
+    margin:auto;
+    width:10%;
+    margin-top:2%;
 }

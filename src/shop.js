@@ -13,4 +13,8 @@ export class Shop{
     getAllProducts(){
         return this.arrayProducts;
     }
+
+    getByIndex(index){
+        return this.arrayProducts[index];
+    }
 }
